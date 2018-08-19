@@ -14,6 +14,8 @@
 		E69E055B2124803F000671F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69E05592124803F000671F3 /* LaunchScreen.storyboard */; };
 		E69E05662124803F000671F3 /* ZooAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E05652124803F000671F3 /* ZooAppTests.swift */; };
 		E69E05712124803F000671F3 /* ZooAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E05702124803F000671F3 /* ZooAppUITests.swift */; };
+		E69E057F2124851F000671F3 /* TVCAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E057E2124851E000671F3 /* TVCAnimal.swift */; };
+		E69E0581212486D9000671F3 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E0580212486D9000671F3 /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E69E056C2124803F000671F3 /* ZooAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69E05702124803F000671F3 /* ZooAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooAppUITests.swift; sourceTree = "<group>"; };
 		E69E05722124803F000671F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E69E057E2124851E000671F3 /* TVCAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCAnimal.swift; sourceTree = "<group>"; };
+		E69E0580212486D9000671F3 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				E69E05502124803D000671F3 /* AppDelegate.swift */,
 				E69E05522124803D000671F3 /* ViewController.swift */,
 				E69E05542124803D000671F3 /* Main.storyboard */,
+				E69E0580212486D9000671F3 /* Animal.swift */,
+				E69E057E2124851E000671F3 /* TVCAnimal.swift */,
 				E69E05572124803F000671F3 /* Assets.xcassets */,
 				E69E05592124803F000671F3 /* LaunchScreen.storyboard */,
 				E69E055C2124803F000671F3 /* Info.plist */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69E057F2124851F000671F3 /* TVCAnimal.swift in Sources */,
+				E69E0581212486D9000671F3 /* Animal.swift in Sources */,
 				E69E05532124803D000671F3 /* ViewController.swift in Sources */,
 				E69E05512124803D000671F3 /* AppDelegate.swift in Sources */,
 			);
